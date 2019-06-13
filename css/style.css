@@ -1,0 +1,131 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #1a1a1a;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.container a:hover {
+  color: #343a40;
+}
+
+.container .row .img-info {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container p a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.container h5 a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.container .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.container .hovereffect:hover img {
+  filter: grayscale(1992) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.container .thumbnail {
+  margin-bottom: 6px;
+}
+
+.myFooter {
+  background-color: #1a1a1a;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.myFooter #copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myFooter #copyright p {
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  #copyright p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #copyright p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  #copyright p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
