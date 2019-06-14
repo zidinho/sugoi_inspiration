@@ -21,29 +21,12 @@ nav {
   font-size: 14px;
 }
 
-.container a:hover {
-  color: #343a40;
-}
-
-.container .row .img-info {
-  margin-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.container p a {
-  text-decoration: none;
-  color: #6c757d;
-}
-
-.container h5 a {
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: 600;
+.container .back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
 
 .container .hovereffect {
@@ -53,7 +36,8 @@ nav {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
 }
 
 .container .hovereffect img {
@@ -63,15 +47,37 @@ nav {
   transition: all 0.4s ease-in;
 }
 
-.container .hovereffect:hover img {
-  filter: grayscale(1992) blur(3px);
+.container .hovereffect img:hover {
+  filter: grayscale(1) blur(3px);
   -webkit-filter: grayscale(1) blur(3px);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
 }
 
 .container .thumbnail {
   margin-bottom: 6px;
+}
+
+.container a:hover {
+  text-decoration: none;
+}
+
+.img-info {
+  margin: 10px 0 20px 0;
+  text-align: left;
+}
+
+.img-info p a {
+  color: #6c757d;
+}
+
+.img-info h6 a {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.img-info a:hover {
+  text-decoration: none;
 }
 
 .myFooter {

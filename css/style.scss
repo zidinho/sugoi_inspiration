@@ -18,24 +18,12 @@ nav {
   font-size: 14px;
 }
 .container {
-  a:hover {
-    color: #343a40;
-  }
-  .row .img-info {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  p a {
-    text-decoration: none;
-    color: #6c757d;
-  }
-  h5 a {
-    text-decoration: none;
-    color: #1a1a1a;
-    font-weight: 600;
-  }
-  a:hover {
+  .back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
   }
   .hovereffect {
     width: 100%;
@@ -44,7 +32,7 @@ nav {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: pointer;
+    cursor: zoom-in;
   }
   .hovereffect img {
     display: block;
@@ -53,16 +41,32 @@ nav {
     transition: all 0.4s ease-in;
   }
 
-  .hovereffect:hover img {
-    filter: grayscale(1992) blur(3px);
+  .hovereffect img:hover {
+    filter: grayscale(1) blur(3px);
     -webkit-filter: grayscale(1) blur(3px);
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    cursor: zoom-in;
   }
 
   .thumbnail {
     margin-bottom: 6px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+.img-info {
+  margin: 10px 0 20px 0;
+  text-align: left;
+  p a {
+    color: #6c757d;
+  }
+  h6 a {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: none;
   }
 }
 
