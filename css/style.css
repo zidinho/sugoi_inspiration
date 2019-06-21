@@ -30,7 +30,7 @@ nav li:hover {
 }
 
 .container .art-item[data-display="true"] {
-  display: contents;
+  display: block;
 }
 
 .container .art-item[data-display="false"] {

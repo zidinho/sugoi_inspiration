@@ -27,7 +27,7 @@ nav {
 }
 .container {
   .art-item[data-display="true"] {
-    display: contents;
+    display: block;
   }
   .art-item[data-display="false"] {
     display: none;

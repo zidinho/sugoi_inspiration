@@ -1,37 +1,107 @@
 [
   {
-    "title": "deep ocean",
+    "title": "brush",
     "category": "athletic",
-    "img-src": "img/creek.jpg"
+    "imgsrc": "img/brush.jpg"
+  },
+  {
+    "title": "circus",
+    "category": "timeless",
+    "imgsrc": "img/circus.jpg"
+  },
+  {
+    "title": "commute",
+    "category": "timeless",
+    "imgsrc": "img/commute.jpg"
+  },
+  {
+    "title": "cracks",
+    "category": "strong",
+    "imgsrc": "img/cracks.jpg"
   },
   {
     "title": "deep ocean",
-    "category": "athletic",
-    "img-src": "img/creek.jpg"
+    "category": "dynamic",
+    "imgsrc": "img/deep_ocean.jpg"
   },
   {
-    "title": "deep ocean",
-    "category": "athletic",
-    "img-src": "img/creek.jpg"
+    "title": "forester",
+    "category": "bold",
+    "imgsrc": "img/forester.jpg"
   },
   {
-    "title": "deep ocean",
+    "title": "knight",
     "category": "athletic",
-    "img-src": "img/creek.jpg"
+    "imgsrc": "img/knight.jpg"
   },
   {
-    "title": "deep ocean",
-    "category": "athletic",
-    "img-src": "img/creek.jpg"
+    "title": "legend",
+    "category": "clean",
+    "imgsrc": "img/legend.jpg"
   },
   {
-    "title": "deep ocean",
-    "category": "athletic",
-    "img-src": "img/creek.jpg"
+    "title": "nets",
+    "category": "bold",
+    "imgsrc": "img/nets.jpg"
   },
   {
-    "title": "deep ocean",
+    "title": "ocean",
+    "category": "dynamic",
+    "imgsrc": "img/ocean.jpg"
+  },
+  {
+    "title": "paintbrush",
+    "category": "dynamic",
+    "imgsrc": "img/paintbrush.jpg"
+  },
+  {
+    "title": "resort",
+    "category": "dynamic",
+    "imgsrc": "img/resort.jpg"
+  },
+  {
+    "title": "roots",
+    "category": "timeless",
+    "imgsrc": "img/roots.jpg"
+  },
+  {
+    "title": "tropical",
+    "category": "dynamic",
+    "imgsrc": "img/tropical.jpg"
+  },
+  {
+    "title": "turf",
     "category": "athletic",
-    "img-src": "img/creek.jpg"
+    "imgsrc": "img/turf.jpg"
+  },
+  {
+    "title": "twilight",
+    "category": "bold",
+    "imgsrc": "img/twilight.jpg"
+  },
+  {
+    "title": "creek",
+    "category": "dynamic",
+    "imgsrc": "img/creek.jpg"
+  },
+  {
+    "title": "garage",
+    "category": "dynamic",
+    "imgsrc": "img/garage.jpg"
+  },
+  {
+    "title": "wires",
+    "category": "strong",
+    "imgsrc": "img/wires.jpg"
+  },
+  {
+    "title": "rebel",
+    "category": "bold",
+    "imgsrc": "img/rebel.jpg"
+  },
+  {
+    "title": "mesh",
+    "category": "bold",
+    "imgsrc": "img/mesh.jpg"
   }
 ]
