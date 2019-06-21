@@ -1,8 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 body,
 html {
   font-family: "Montserrat", sans-serif;
@@ -19,13 +14,26 @@ nav {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
+  color: var(--light);
 }
 
-.container .back-to-top {
+nav .navbar-brand:hover {
+  color: var(--secondary);
+}
+
+nav li {
   cursor: pointer;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+}
+
+nav li:hover {
+  color: var(--secondary);
+}
+
+.container .art-item[data-display="true"] {
+  display: contents;
+}
+
+.container .art-item[data-display="false"] {
   display: none;
 }
 
@@ -67,16 +75,32 @@ nav {
   text-align: left;
 }
 
+.img-info a:hover {
+  text-decoration: none;
+}
+
 .img-info p a {
-  color: #6c757d;
+  color: var(--gray);
 }
 
 .img-info h6 a {
-  color: #1a1a1a;
+  color: var(--dark);
   font-weight: 600;
 }
 
+.img-info a {
+  background-size: 200.22% auto;
+  -webkit-background-size: 200.22% auto;
+  -moz-background-size: 200.22% auto;
+  background-position: -0% 0;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0)), color-stop(50%, #cccccc));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #cccccc 50%);
+  transition: background-position 0.5s ease-out;
+  -webkit-transition: background-position 0.5s ease-out;
+}
+
 .img-info a:hover {
+  background-position: -99.99% 0;
   text-decoration: none;
 }
 

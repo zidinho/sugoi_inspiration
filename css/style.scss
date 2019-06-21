@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 body,
 html {
   font-family: "Montserrat", sans-serif;
@@ -11,18 +8,28 @@ html {
   overflow-x: hidden;
   text-transform: uppercase;
 }
+
 nav {
+  .navbar-brand:hover {
+    color: var(--secondary);
+  }
   background-color: #1a1a1a;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
+  color: var(--light);
+  li {
+    cursor: pointer;
+    &:hover {
+      color: var(--secondary);
+    }
+  }
 }
 .container {
-  .back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+  .art-item[data-display="true"] {
+    display: contents;
+  }
+  .art-item[data-display="false"] {
     display: none;
   }
   .hovereffect {
@@ -58,15 +65,32 @@ nav {
 .img-info {
   margin: 10px 0 20px 0;
   text-align: left;
-  p a {
-    color: #6c757d;
-  }
-  h6 a {
-    color: #1a1a1a;
-    font-weight: 600;
-  }
   a:hover {
     text-decoration: none;
+  }
+  p a {
+    color: var(--gray);
+  }
+  h6 a {
+    color: var(--dark);
+    font-weight: 600;
+  }
+  a {
+    background-size: 200.22% auto;
+    -webkit-background-size: 200.22% auto;
+    -moz-background-size: 200.22% auto;
+    background-position: -0% 0;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 50%,
+      #cccccc 50%
+    );
+    transition: background-position 0.5s ease-out;
+    -webkit-transition: background-position 0.5s ease-out;
+    &:hover {
+      background-position: -99.99% 0;
+      text-decoration: none;
+    }
   }
 }
 

@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Montserrat Google Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap Framework -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Sugoi Custom Inspiration Board</title>
   </head>
@@ -35,32 +38,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active pr-2">
-              <a class="nav-link" href="#"
-                >All <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item pr-2">
-              <a class="nav-link" href="#">Athletic</a>
-            </li>
-            <li class="nav-item pr-2">
-              <a class="nav-link" href="#">Bold</a>
-            </li>
-            <li class="nav-item pr-2">
-              <a class="nav-link" href="#">Clean</a>
-            </li>
-            <li class="nav-item pr-2">
-              <a class="nav-link" href="#">Dynamic</a>
-            </li>
-            <li class="nav-item pr-2">
-              <a class="nav-link" href="#">Simple</a>
-            </li>
-            <li class="nav-item pr-2">
-              <a class="nav-link" href="#">Strong</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Timeless</a>
-            </li>
+            <li class="trigger nav-item active pl-3">All</li>
+            <li class="trigger nav-item pl-3">Athletic</li>
+            <li class="trigger nav-item pl-3">Bold</li>
+            <li class="trigger nav-item pl-3">Clean</li>
+            <li class="trigger nav-item pl-3">Dynamic</li>
+            <li class="trigger nav-item pl-3">Simple</li>
+            <li class="trigger nav-item pl-3">Strong</li>
+            <li class="trigger nav-item pl-3">Timeless</li>
           </ul>
         </div>
       </div>
@@ -68,115 +53,48 @@
     <!-- bootstrap modal lightbox gallery -->
     <div class="container">
       <div class="row" style="margin-bottom: 75px">
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
+        <div class="athletic col-sm-6 col-md-4 col-lg-3 hovereffect art-item">
+          <img class="thumbnail img-fluid img-thumbnail" src="img/brush.jpg" />
           <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
+            <h6 class="art-title"><a href="#">brush</a></h6>
+            <p>
+              <a href="#" class="" data-filter="timeless">athletic</a>
+            </p>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
+        <div class="timeless col-sm-6 col-md-4 col-lg-3 hovereffect art-item">
+          <img class="thumbnail img-fluid img-thumbnail" src="img/circus.jpg" />
           <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
+            <h6 class="art-title"><a href="#">circus</a></h6>
+            <p>
+              <a href="#" class="" data-filter="timeless">timeless</a>
+            </p>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
+        <div class="timeless col-sm-6 col-md-4 col-lg-3 hovereffect art-item">
+          <img
+            class="thumbnail img-fluid img-thumbnail"
+            src="img/commute.jpg"
+          />
           <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
+            <h6 class="art-title"><a href="#">commute</a></h6>
+            <p>
+              <a href="#" class="" data-filter="timeless">timeless</a>
+            </p>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
+        <div class="strong col-sm-6 col-md-4 col-lg-3 hovereffect art-item">
+          <img class="thumbnail img-fluid img-thumbnail" src="img/cracks.jpg" />
           <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
+            <h6 class="art-title"><a href="#">cracks</a></h6>
+            <p>
+              <a href="#" class="" data-filter="strong">strong</a>
+            </p>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3  hovereffect">
-          <a href="#cracks"
-            ><img class="thumbnail img-fluid img-thumbnail" src="img/creek.jpg"
-          /></a>
-          <div class="img-info">
-            <h6><a href="#creek">DEEP OCEAN</a></h6>
-            <p><a href="#creek">Athletic</a></p>
-          </div>
-        </div>
-      </div>
+
+        <!-- Test the scroll -->
+        <!-- <div style="height:2000px;"></div> -->
       </div>
     </div>
     <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
@@ -199,6 +117,7 @@
         </p>
       </div>
     </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -215,18 +134,35 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      let buttonsArray = document.querySelectorAll(".trigger");
+      const images = document.querySelectorAll(".art-item");
+
+      buttonsArray.forEach(button => {
+        button.addEventListener("click", () => {
+          const category = button.textContent.toLowerCase();
+          images.forEach(img => {
+            if (img.classList.contains(category)) {
+              img.setAttribute("data-display", "true");
+            } else {
+              img.setAttribute("data-display", "false");
+            }
+          });
+        });
+      });
+    </script>
+    <script>
       $(document).ready(function() {
         $(".thumbnail").click(function() {
           $(".modal-body").empty();
-          var title = $(this)
-            .parent("a")
-            .attr("title");
-          $(".modal-title").html(title);
-          $(
-            $(this)
-              .parents("div")
-              .html()
-          ).appendTo(".modal-body");
+          var imgsrc = $(this).attr("src");
+          $(".modal-body").append(`<img class="img-fluid" src="${imgsrc}" />`);
+          $("#myModal").modal({ show: true });
+        });
+        $(".art-title").click(function() {
+          $(".modal-body").empty();
+          var imgparent = $(this).parents(".art-item");
+          var imgsrc2 = imgparent.find("img").attr("src");
+          $(".modal-body").append(`<img class="img-fluid" src="${imgsrc2}" />`);
           $("#myModal").modal({ show: true });
         });
       });
