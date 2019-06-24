@@ -67,10 +67,13 @@ async function getData() {
   categories.sort().forEach(cat => {
     const li = document.createElement("li");
     li.innerHTML = cat;
-    const liClasses = "trigger nav-item pl-3";
+    const liClasses = "trigger nav-item pr-3";
     li.className = liClasses;
     navbar.appendChild(li);
-    li.addEventListener("click", () => {
+    li.addEventListener("click", function() {
+      const activeItem = navbar.querySelector(".active");
+      activeItem.classList.remove("active");
+      this.classList.add("active");
       items.forEach(img => {
         if (img.classList.contains(cat)) {
           img.setAttribute("data-display", "true");
@@ -85,7 +88,10 @@ async function getData() {
 getData();
 
 // navbar event listener
-allButton.addEventListener("click", () => {
+allButton.addEventListener("click", function() {
+  const activeItem = navbar.querySelector(".active");
+  activeItem.classList.remove("active");
+  this.classList.add("active");
   items.forEach(img => {
     img.setAttribute("data-display", "true");
   });
