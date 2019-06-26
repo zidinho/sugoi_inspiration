@@ -118,23 +118,40 @@ nav li:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
+  text-align: left;
+}
+
+.myFooter .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  text-align: right;
+}
+
+.myFooter .container .branding {
+  padding: 5px 0 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-.myFooter #copyright {
+.myFooter .container .branding #copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,10 +160,55 @@ nav li:hover {
           align-items: center;
 }
 
-.myFooter #copyright p {
-  text-align: center;
+.myFooter .container .branding #copyright p {
+  text-align: left;
   font-size: 10px;
   margin: 0;
+}
+
+.myFooter .container .socialNetworks {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.myFooter .container .socialNetworks ul {
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.myFooter .container .socialNetworks ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: var(--gray);
+}
+
+.myFooter .container .socialNetworks ul a:hover {
+  background-color: var(--gray);
+  color: #ffffff;
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 @media (min-width: 576px) {

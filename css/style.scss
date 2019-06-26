@@ -106,21 +106,64 @@ nav {
   position: fixed;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  #copyright {
+  text-align: left;
+  .container {
+    .branding {
+      padding: 5px 0 5px 0;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      flex: 1;
+      #copyright {
+        display: flex;
+        align-items: center;
+        p {
+          text-align: left;
+          font-size: 10px;
+          margin: 0;
+        }
+      }
+    }
     display: flex;
     align-items: center;
-    p {
-      text-align: center;
-      font-size: 10px;
-      margin: 0;
+    justify-content: end;
+    text-align: right;
+    .socialNetworks {
+      flex: 1;
+      ul {
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+          &:hover {
+            background-color: var(--gray);
+            color: #ffffff;
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -ms--transform: rotate(360deg);
+            transform: rotate(360deg);
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            -ms-transition: all 0.2s;
+            transition: all 0.2s;
+          }
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: #ffffff;
+          color: var(--gray);
+        }
+      }
     }
   }
 }
+
 @media (min-width: 576px) {
   #copyright {
     p {
