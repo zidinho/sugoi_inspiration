@@ -100,6 +100,46 @@
     "imgsrc": "img/rebel.jpg"
   },
   {
+    "title": "slash",
+    "category": "clean",
+    "imgsrc": "img/slash.jpg"
+  },
+  {
+    "title": "slipstream",
+    "category": "clean",
+    "imgsrc": "img/slipstream.jpg"
+  },
+  {
+    "title": "spring",
+    "category": "clean",
+    "imgsrc": "img/spring.jpg"
+  },
+  {
+    "title": "segment",
+    "category": "strong",
+    "imgsrc": "img/segment.jpg"
+  },
+  {
+    "title": "vapor",
+    "category": "strong",
+    "imgsrc": "img/vapor.jpg"
+  },
+  {
+    "title": "original",
+    "category": "timeless",
+    "imgsrc": "img/original.jpg"
+  },
+  {
+    "title": "stripes",
+    "category": "simple",
+    "imgsrc": "img/stripes.jpg"
+  },
+  {
+    "title": "pixel",
+    "category": "simple",
+    "imgsrc": "img/pixel.jpg"
+  },
+  {
     "title": "mesh",
     "category": "bold",
     "imgsrc": "img/mesh.jpg"

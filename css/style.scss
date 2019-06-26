@@ -109,7 +109,7 @@ nav {
   text-align: left;
   .container {
     .branding {
-      padding: 5px 0 5px 0;
+      margin: 0.5em 0 0.5em 0;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
@@ -157,7 +157,7 @@ nav {
           height: 30px;
           border-radius: 50%;
           background-color: #ffffff;
-          color: var(--gray);
+          color: var(--dark);
         }
       }
     }
@@ -167,7 +167,7 @@ nav {
 @media (min-width: 576px) {
   #copyright {
     p {
-      font-size: 10px;
+      font-size: 9px;
     }
   }
 }
