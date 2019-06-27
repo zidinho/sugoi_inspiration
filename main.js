@@ -1,4 +1,4 @@
-let buttonsArray = document.querySelectorAll(".trigger");
+// let buttonsArray = document.querySelectorAll(".trigger");
 let allButton = document.querySelector(".triggerAll");
 let items = [];
 let categories = [];
@@ -6,8 +6,13 @@ const imageGrid = document.querySelector("#imgGrid");
 const navbar = document.querySelector(".navbar-nav");
 
 async function getData() {
+  // fetches json string of objects in images.json file
   const response = await fetch("./images.json");
-  const data = await response.json();
+  // converts json string to json object
+  let data = await response.json();
+  // sort json object by title using lodash library
+  data = _.sortBy(data, obj => obj.title);
+
   // create a div for each item and add event listeners
   data.forEach(obj => {
     //   Create div to go into imgGrid
@@ -37,7 +42,7 @@ async function getData() {
       $(".modal-body").append(`<img class="img-fluid" src="${obj.imgsrc}" />`);
       $("#myModal").modal({ show: true });
     });
-    // add event listen to the item title
+    // add event listener to the item title
     const itemBtn = divNode.querySelector(".art-title");
     itemBtn.addEventListener("click", () => {
       $(".modal-body").empty();
@@ -45,9 +50,17 @@ async function getData() {
       $("#myModal").modal({ show: true });
     });
 
-    //add event listener to te category
+    //add event listener to the category
     const categoryBtn = divNode.querySelector(".trigger");
-    categoryBtn.addEventListener("click", () => {
+    categoryBtn.addEventListener("click", function() {
+      const activeItem = navbar.querySelector(".active");
+      activeItem.classList.remove("active");
+      let navItems = navbar.querySelectorAll(".nav-item");
+      navItems.forEach(nav => {
+        if (nav.innerHTML == this.innerHTML) {
+          nav.classList.add("active");
+        }
+      });
       items.forEach(img => {
         if (img.classList.contains(obj.category)) {
           img.setAttribute("data-display", "true");
@@ -56,20 +69,26 @@ async function getData() {
         }
       });
     });
+
+    // adds item to imggrid
     imageGrid.appendChild(divNode);
     items.push(divNode);
 
+    // adds category to category array if doen't exist
     if (!categories.includes(obj.category)) {
       categories.push(obj.category);
     }
   });
 
+  // loops through categroy array and adds navitem based on category
   categories.sort().forEach(cat => {
     const li = document.createElement("li");
     li.innerHTML = cat;
     const liClasses = "trigger nav-item pr-3";
     li.className = liClasses;
     navbar.appendChild(li);
+
+    // adds event listener to each navitem
     li.addEventListener("click", function() {
       const activeItem = navbar.querySelector(".active");
       activeItem.classList.remove("active");
@@ -87,7 +106,7 @@ async function getData() {
 // call the Json data and fills the imgGrid
 getData();
 
-// navbar event listener
+// All navitem event listener
 allButton.addEventListener("click", function() {
   const activeItem = navbar.querySelector(".active");
   activeItem.classList.remove("active");
