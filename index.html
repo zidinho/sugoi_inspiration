@@ -1,116 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Montserrat Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
-    <!-- Bootstrap Framework -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Sugoi Custom Inspiration Board</title>
-  </head>
-  <body>
-    <!-- header with branding and navigation bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark mb-4">
-      <div class="container">
-        <a class="navbar-brand" href="#">Custom Inspiration Board</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="triggerAll nav-item active pr-3">All</li>
-          </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- Montserrat Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+        />
+        <!-- Bootstrap Framework -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Sugoi Custom Inspiration Board</title>
+    </head>
+    <body>
+        <!-- header with branding and navigation bar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">Custom Inspiration Board</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li
+                            class="triggerAll nav-item active pr-3"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse.show"
+                        >
+                            All
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- bootstrap modal lightbox gallery -->
+        <div class="container" style="margin-top: 100px">
+            <div class="row" id="imgGrid"></div>
         </div>
-      </div>
-    </nav>
-    <!-- bootstrap modal lightbox gallery -->
-    <div class="container" style="margin-top: 100px">
-      <div class="row" id="imgGrid" style="margin-bottom: 75px"></div>
-    </div>
 
-    <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-body"></div>
+        <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body"></div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <!-- footer with logo and copyright -->
-    <footer class="myFooter">
-      <div class="container">
-        <div class="branding">
-          <a href="https://custom.sugoi.com/" target="_blank">
-            <img src="./img/logo.png" alt="sugoi custom logo" />
-          </a>
-          <div id="copyright">
-            <p class="pt-1">
-              All images appearing on this site are the property of Copyright ©
-              2019 Sugoi.
-            </p>
-          </div>
-        </div>
-        <div class="socialNetworks">
-          <ul>
-            <a
-              href="https://www.facebook.com/SugoiPerformApparel/"
-              class="iconFacebook mr-4"
-              title="Facebook"
-              target="_blank"
-              ><i class="fa fa-facebook"></i>
-              <li></li
-            ></a>
-            <a
-              href="https://www.instagram.com/sugoiapparel/"
-              class="iconInstagram  mr-4"
-              title="Instagram"
-              target="_blank"
-              ><i class="fa fa-instagram"><li></li></i
-            ></a>
-            <a
-              href="mailto:custom@sugoi.com?Subject=From Custom Inspiration Board"
-              class="iconEmail"
-              title="Email"
-              ><i class="fa fa-envelope"></i>
-              <li></li
-            ></a>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/lodash.js"></script>
-    <script src="./js/main.js"></script>
-  </body>
+        <!-- footer with logo and copyright -->
+        <footer class="myFooter">
+            <div class="container">
+                <div class="branding">
+                    <a href="https://custom.sugoi.com/" target="_blank">
+                        <img src="./img/logo.png" alt="sugoi custom logo" />
+                    </a>
+                    <div id="copyright">
+                        <p class="pt-1">
+                            All images appearing on this site are the property
+                            of Copyright © 2019 Sugoi.
+                        </p>
+                    </div>
+                </div>
+                <div class="socialNetworks">
+                    <ul>
+                        <a
+                            href="https://www.facebook.com/SugoiPerformApparel/"
+                            class="iconFacebook mr-4"
+                            title="Facebook"
+                            target="_blank"
+                            ><i class="fa fa-facebook"></i>
+                            <li></li
+                        ></a>
+                        <a
+                            href="https://www.instagram.com/sugoiapparel/"
+                            class="iconInstagram  mr-4"
+                            title="Instagram"
+                            target="_blank"
+                            ><i class="fa fa-instagram"><li></li></i
+                        ></a>
+                        <a
+                            href="mailto:custom@sugoi.com?Subject=From Custom Inspiration Board"
+                            class="iconEmail"
+                            title="Email"
+                            ><i class="fa fa-envelope"></i>
+                            <li></li
+                        ></a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/lodash.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
 </html>

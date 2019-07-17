@@ -9,6 +9,10 @@ html {
   text-transform: uppercase;
 }
 
+.modal-open {
+  overflow: inherit !important;
+}
+
 nav {
   background-color: #1a1a1a;
   font-weight: 600;
@@ -35,6 +39,10 @@ nav li {
 
 nav li:hover {
   color: var(--secondary);
+}
+
+.container #imgGrid {
+  margin-bottom: 100px;
 }
 
 .container .art-item[data-display="true"] {
@@ -211,19 +219,62 @@ nav li:hover {
   transition: all 0.2s;
 }
 
+@media (max-width: 577px) {
+  #imgGrid {
+    margin: 120px 0 120px 0;
+  }
+  .myFooter .container {
+    padding: 0 0 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .myFooter .container .socialNetworks ul {
+    padding: 0 0 0 0;
+  }
+  .myFooter .container .branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 7px;
+  }
+  .myFooter .container .branding #copyright p {
+    text-align: center;
+  }
+  .myFooter .container #copyright p {
+    font-size: 9px;
+  }
+}
+
 @media (min-width: 576px) {
+  #imgGrid {
+    margin-bottom: 85px;
+  }
   #copyright p {
     font-size: 9px;
   }
 }
 
 @media (min-width: 768px) {
+  #imgGrid {
+    margin-bottom: 85px;
+  }
   #copyright p {
     font-size: 10px;
   }
 }
 
 @media (min-width: 992px) {
+  #imgGrid {
+    margin-bottom: 50px;
+  }
   #copyright p {
     font-size: 14px;
   }
