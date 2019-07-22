@@ -67,13 +67,13 @@ nav li:hover {
 .container .hovereffect img {
   display: block;
   position: relative;
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
 }
 
 .container .hovereffect img:hover {
-  filter: grayscale(1) blur(3px);
-  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
