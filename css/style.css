@@ -29,8 +29,8 @@ nav .nav-item {
   padding: 10px 3px 10px 0;
 }
 
-nav .navbar-brand:hover {
-  color: var(--secondary);
+nav a.navbar-brand:hover {
+  opacity: 0.5;
 }
 
 nav li {
@@ -157,6 +157,10 @@ nav li:hover {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.myFooter .container .branding img:hover {
+  opacity: 0.5;
 }
 
 .myFooter .container .branding #copyright {

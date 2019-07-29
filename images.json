@@ -1,147 +1,192 @@
 [
-  {
-    "title": "brush",
-    "category": "athletic",
-    "imgsrc": "img/brush.jpg"
-  },
-  {
-    "title": "circus",
-    "category": "timeless",
-    "imgsrc": "img/circus.jpg"
-  },
-  {
-    "title": "commute",
-    "category": "timeless",
-    "imgsrc": "img/commute.jpg"
-  },
-  {
-    "title": "cracks",
-    "category": "strong",
-    "imgsrc": "img/cracks.jpg"
-  },
-  {
-    "title": "deep ocean",
-    "category": "dynamic",
-    "imgsrc": "img/deep_ocean.jpg"
-  },
-  {
-    "title": "forester",
-    "category": "bold",
-    "imgsrc": "img/forester.jpg"
-  },
-  {
-    "title": "knight",
-    "category": "athletic",
-    "imgsrc": "img/knight.jpg"
-  },
-  {
-    "title": "legend",
-    "category": "clean",
-    "imgsrc": "img/legend.jpg"
-  },
-  {
-    "title": "nets",
-    "category": "bold",
-    "imgsrc": "img/nets.jpg"
-  },
-  {
-    "title": "ocean",
-    "category": "dynamic",
-    "imgsrc": "img/ocean.jpg"
-  },
-  {
-    "title": "paintbrush",
-    "category": "dynamic",
-    "imgsrc": "img/paintbrush.jpg"
-  },
-  {
-    "title": "resort",
-    "category": "dynamic",
-    "imgsrc": "img/resort.jpg"
-  },
-  {
-    "title": "roots",
-    "category": "timeless",
-    "imgsrc": "img/roots.jpg"
-  },
-  {
-    "title": "tropical",
-    "category": "dynamic",
-    "imgsrc": "img/tropical.jpg"
-  },
-  {
-    "title": "turf",
-    "category": "athletic",
-    "imgsrc": "img/turf.jpg"
-  },
-  {
-    "title": "twilight",
-    "category": "bold",
-    "imgsrc": "img/twilight.jpg"
-  },
-  {
-    "title": "creek",
-    "category": "dynamic",
-    "imgsrc": "img/creek.jpg"
-  },
-  {
-    "title": "garage",
-    "category": "dynamic",
-    "imgsrc": "img/garage.jpg"
-  },
-  {
-    "title": "wires",
-    "category": "strong",
-    "imgsrc": "img/wires.jpg"
-  },
-  {
-    "title": "rebel",
-    "category": "bold",
-    "imgsrc": "img/rebel.jpg"
-  },
-  {
-    "title": "slash",
-    "category": "clean",
-    "imgsrc": "img/slash.jpg"
-  },
-  {
-    "title": "slipstream",
-    "category": "clean",
-    "imgsrc": "img/slipstream.jpg"
-  },
-  {
-    "title": "spring",
-    "category": "clean",
-    "imgsrc": "img/spring.jpg"
-  },
-  {
-    "title": "segment",
-    "category": "strong",
-    "imgsrc": "img/segment.jpg"
-  },
-  {
-    "title": "vapor",
-    "category": "strong",
-    "imgsrc": "img/vapor.jpg"
-  },
-  {
-    "title": "original",
-    "category": "timeless",
-    "imgsrc": "img/original.jpg"
-  },
-  {
-    "title": "stripes",
-    "category": "simple",
-    "imgsrc": "img/stripes.jpg"
-  },
-  {
-    "title": "pixel",
-    "category": "simple",
-    "imgsrc": "img/pixel.jpg"
-  },
-  {
-    "title": "mesh",
-    "category": "bold",
-    "imgsrc": "img/mesh.jpg"
-  }
+    {
+        "title": "brush",
+        "category": "athletic",
+        "imgsrc": "img/brush.jpg"
+    },
+    {
+        "title": "circus",
+        "category": "timeless",
+        "imgsrc": "img/circus.jpg"
+    },
+    {
+        "title": "commute",
+        "category": "timeless",
+        "imgsrc": "img/commute.jpg"
+    },
+    {
+        "title": "cracks",
+        "category": "strong",
+        "imgsrc": "img/cracks.jpg"
+    },
+    {
+        "title": "deep ocean",
+        "category": "dynamic",
+        "imgsrc": "img/deep_ocean.jpg"
+    },
+    {
+        "title": "forester",
+        "category": "bold",
+        "imgsrc": "img/forester.jpg"
+    },
+    {
+        "title": "knight",
+        "category": "athletic",
+        "imgsrc": "img/knight.jpg"
+    },
+    {
+        "title": "legend",
+        "category": "clean",
+        "imgsrc": "img/legend.jpg"
+    },
+    {
+        "title": "nets",
+        "category": "bold",
+        "imgsrc": "img/nets.jpg"
+    },
+    {
+        "title": "ocean",
+        "category": "dynamic",
+        "imgsrc": "img/ocean.jpg"
+    },
+    {
+        "title": "paintbrush",
+        "category": "dynamic",
+        "imgsrc": "img/paintbrush.jpg"
+    },
+    {
+        "title": "resort",
+        "category": "dynamic",
+        "imgsrc": "img/resort.jpg"
+    },
+    {
+        "title": "roots",
+        "category": "timeless",
+        "imgsrc": "img/roots.jpg"
+    },
+    {
+        "title": "tropical",
+        "category": "dynamic",
+        "imgsrc": "img/tropical.jpg"
+    },
+    {
+        "title": "turf",
+        "category": "athletic",
+        "imgsrc": "img/turf.jpg"
+    },
+    {
+        "title": "twilight",
+        "category": "bold",
+        "imgsrc": "img/twilight.jpg"
+    },
+    {
+        "title": "creek",
+        "category": "dynamic",
+        "imgsrc": "img/creek.jpg"
+    },
+    {
+        "title": "garage",
+        "category": "dynamic",
+        "imgsrc": "img/garage.jpg"
+    },
+    {
+        "title": "wires",
+        "category": "strong",
+        "imgsrc": "img/wires.jpg"
+    },
+    {
+        "title": "rebel",
+        "category": "bold",
+        "imgsrc": "img/rebel.jpg"
+    },
+    {
+        "title": "slash",
+        "category": "clean",
+        "imgsrc": "img/slash.jpg"
+    },
+    {
+        "title": "slipstream",
+        "category": "clean",
+        "imgsrc": "img/slipstream.jpg"
+    },
+    {
+        "title": "spring",
+        "category": "clean",
+        "imgsrc": "img/spring.jpg"
+    },
+    {
+        "title": "segment",
+        "category": "strong",
+        "imgsrc": "img/segment.jpg"
+    },
+    {
+        "title": "vapor",
+        "category": "strong",
+        "imgsrc": "img/vapor.jpg"
+    },
+    {
+        "title": "original",
+        "category": "timeless",
+        "imgsrc": "img/original.jpg"
+    },
+    {
+        "title": "stripes",
+        "category": "simple",
+        "imgsrc": "img/stripes.jpg"
+    },
+    {
+        "title": "pixel",
+        "category": "simple",
+        "imgsrc": "img/pixel.jpg"
+    },
+    {
+        "title": "mesh",
+        "category": "bold",
+        "imgsrc": "img/mesh.jpg"
+    },
+    {
+        "title": "iceberg",
+        "category": "athletic",
+        "imgsrc": "img/iceberg.jpg"
+    },
+    {
+        "title": "mountaineer",
+        "category": "athletic",
+        "imgsrc": "img/mountaineer.jpg"
+    },
+    {
+        "title": "movement",
+        "category": "bold",
+        "imgsrc": "img/movement.jpg"
+    },
+    {
+        "title": "beach",
+        "category": "dynamic",
+        "imgsrc": "img/beach.jpg"
+    },
+    {
+        "title": "dazzle",
+        "category": "dynamic",
+        "imgsrc": "img/dazzle.jpg"
+    },
+    {
+        "title": "hawaii",
+        "category": "dynamic",
+        "imgsrc": "img/hawaii.jpg"
+    },
+    {
+        "title": "sunset",
+        "category": "simple",
+        "imgsrc": "img/sunset.jpg"
+    },
+    {
+        "title": "patriot",
+        "category": "strong",
+        "imgsrc": "img/patriot.jpg"
+    },
+    {
+        "title": "gravity",
+        "category": "timeless",
+        "imgsrc": "img/gravity.jpg"
+    }
 ]
